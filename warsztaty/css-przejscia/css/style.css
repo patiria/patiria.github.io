@@ -1,0 +1,28 @@
+>box {
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.box:hover {
+    cursor: pointer;
+}
+
+.box-width {
+    background-color: rebeccapurple;
+    transition: width 2s ease ease-out;
+}
+
+.box-width:hover {
+    width: 300px;
+}
+.box-height {
+    background-color: aqua;
+    transition: height 2 s ease-out;
+}
+.box-height:hover {
+    height: 300px;
+}
