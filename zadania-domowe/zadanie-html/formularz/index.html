@@ -11,27 +11,27 @@
 <body>
     <h1>Formularz szkoleniowy</h1>
     <form action="https://formspree.io/patiria@poczta.onet.pl" method="POST">
-        <label for="imie">Imię:</label>
+        <label type="imie">Imię:</label>
         <input type="text" name="imie" id="imie"><br /><br>
-        <label for="nazwisko">Nazwisko:</label>
+        <label type="nazwisko">Nazwisko:</label>
         <input type="text" name="nazwisko" id="nazwisko"><br /><br>
-        <label for="email">E-mail:</label>
+        <label type="email">E-mail:</label>
         <input type="email" name="mail"><br /><br>
-        <label for="number">Numer telefonu:</label>
+        <label type="number">Numer telefonu:</label>
         <input type="number" name="quantity"><br /><br>
-        <label for="miasto">Miasto:</label>
+        <label type="miasto">Miasto:</label>
         <!-- <input type="text" name="miasto" ></br> -->
         <select name="select">
             <option value="value1">Warszawa</option>
             <option value="value2">Kraków</option>
             <option value="value3">Gdańsk</option>
         </select><br /><br>
-        <label for="gender">Płeć:</label>
+        <label type="gender">Płeć:</label>
         <input type="radio" name="gender">Mężczyzna
         <input type="radio" name="gender">Kobieta<br /><br>
-        <label for="text">Zgoda na dane osobowe:</label>
+        <label type="text">Zgoda na dane osobowe:</label>
         <input type="checkbox" name="agreement"><br /><br>
-        <label for="text">Wpisz wiadomość:</label><br/>
+        <label type="text">Wpisz wiadomość:</label><br/>
         <textarea maxlength="1000" name="message"></textarea><br>
         <input type="submit" value="Wyślij"><br/>
 
