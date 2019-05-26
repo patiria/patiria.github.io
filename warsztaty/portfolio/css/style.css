@@ -11,7 +11,8 @@ body {
     color: #333;
     border: 2px solid #007bff;
     text-decoration-line: none;
-
+    text-transform: uppercase;
+    font-size: 15px;
 }
 
 
@@ -57,14 +58,30 @@ body {
 
 #main-nav {
     background-color: #007bff;
-    background-size: 30px;
+    background-size: 50px;
+    height: 50px;
     color: white;
     text-transform: uppercase;
     display: flex;
     justify-content: center;
+    align-items: center;
     align-content: space-between;
     position: static;
 }
+#main-nav ul {
+
+}
+#main-nav ul li.menu-item {
+    display: inline-block;
+}
+#main-nav ul li.menu-item a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
 
 /* section about */
 
@@ -77,10 +94,10 @@ section#about h2 {
 }
 section#about hr {
     border: 1px solid #007bff;
-    width: 10%;
+    width: 5%;
     display: flex;
     justify-items: flex-start;
-    line-height: 20%;
+    line-height: 10%;
 }
 
 section#about img {
@@ -91,5 +108,31 @@ section#about img {
 
 section#p {
     color: #777;
+}
 
+section#gallery {
+    background-color:  #f2f1ed; 
+    height: 70vh;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    text-align: center;
+    text-transform: uppercase;
+}
+
+section#gallery h2 {
+    color: #333;
+    display: flex;
+    justify-content: first baseline;
+}   
+
+section#gallery hr {
+    border: 1px solid #007bff;
+    width: 5%;
+    display: flex;
+        line-height: 10%;
+}
+
+/* section#portfolio .figure {
+    list-style-image: image-set(0,1,2) */
 }
