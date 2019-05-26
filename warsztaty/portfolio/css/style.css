@@ -15,7 +15,12 @@ body {
     font-size: 15px;
 }
 
-
+hr {
+    border: 0;
+    width: 5%;
+    background-color: #007bff;
+    height: 1px;
+}
 
 
 
@@ -31,13 +36,6 @@ body {
     text-transform: uppercase;
 }
 
-#header .main-content hr {
-    border: 1px solid #007bff;
-    width: 20%;
-    display: flex;
-    justify-items: flex-start;
-    line-height: 20%;
-}
 
 #header .main-content h1 {
     color: #007bff;
@@ -68,12 +66,13 @@ body {
     align-content: space-between;
     position: static;
 }
-#main-nav ul {
 
-}
+#main-nav ul {}
+
 #main-nav ul li.menu-item {
     display: inline-block;
 }
+
 #main-nav ul li.menu-item a {
     text-decoration: none;
     color: white;
@@ -89,15 +88,9 @@ section#about {
 
     text-align: center;
 }
+
 section#about h2 {
     text-transform: uppercase;
-}
-section#about hr {
-    border: 1px solid #007bff;
-    width: 5%;
-    display: flex;
-    justify-items: flex-start;
-    line-height: 10%;
 }
 
 section#about img {
@@ -106,33 +99,61 @@ section#about img {
 
 }
 
-section#p {
+section#about p {
     color: #777;
 }
 
-section#gallery {
-    background-color:  #f2f1ed; 
-    height: 70vh;
-    display: flex;
-    /* justify-content: center;
-    align-items: center; */
+
+
+
+
+
+
+/* section portfolio */
+section#portfolio {
+    background-color: #f2f1ed;
     text-align: center;
-    text-transform: uppercase;
+
 }
 
-section#gallery h2 {
+section#portfolio h2 {
+    text-transform: uppercase;
+    color: #333;
+}
+
+section#portfolio .portfolio-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: center;
+    align-content: center; */
+    /* flex-basis: 33%; */
+    width: 90%;
+    margin: auto;
+}
+
+section#portfolio .portfolio-wrapper a.portfolio-item {
+    /* display: flex; */
+    flex-basis: 25%;
+    /* flex-wrap: wrap; */
+}
+
+
+section#portfolio .portfolio-wrapper a.portfolio-item img {
+    max-width: 100%;
+
+}
+
+/* sekcja kontakt */
+
+section#kontakt {
+    text-align: center;
+}
+
+section#kontakt h2 {
     color: #333;
     display: flex;
-    justify-content: first baseline;
-}   
+    justify-content: center;
+    text-transform: uppercase;
 
-section#gallery hr {
-    border: 1px solid #007bff;
-    width: 5%;
-    display: flex;
-        line-height: 10%;
-}
-
-/* section#portfolio .figure {
-    list-style-image: image-set(0,1,2) */
 }
