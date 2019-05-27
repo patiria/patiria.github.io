@@ -1,0 +1,12 @@
+* {
+
+    /* color: white; */
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    border: 5px solid tomato;
+    padding: 5px 45%;
+}
