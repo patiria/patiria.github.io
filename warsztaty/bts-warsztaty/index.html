@@ -7,18 +7,23 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.4.1/css/all.css?fbclid=IwAR0CQQ_-CtrotSjlGMSgFAw07C8uL0rg9sp5ROHhdfR6-DBs8Eb0dEzz7Bs">
     <link rel="stylesheet" href="css/style.css">
     <title>Warsztaty-bts</title>
 </head>
 
 <body>
-    <!-- menu --> 
+    <!-- menu -->
 
     <!-- nawigacja -->
-    <nav id="main-nav" class="navbar navbar-expand-lg navbar-light"> <a class="navbar-brand" href="#">Klub
-            podróżniczy</a> <button class="navbar-toggler" type="button" data-toggle="collapse"
-            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+    <nav id="main-nav" class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">Klub
+            podróżniczy</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span
+                class="navbar-toggler-icon"></span> </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  ml-auto w-100 justify-content-end">
                 <li class="nav-item"> <a class="nav-link" href="#services">Dołącz do nas</a> </li>
@@ -27,37 +32,83 @@
         </div>
     </nav>
 
-   
-    <!-- Containers -->
 
-    <div class="container"></div>
-    <div class="container-fluid"></div>
-    <!-- Colums -->
-    <div class="container-fluid">
-        <div class="row">
-            </p>
-            <div class="col-12 col-md-3 btn-success text-center">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda laboriosam facilis rem id
-                    praesentium minus saepe, itaque perferendis modi est! Dolorem nemo aspernatur dicta deserunt debitis
-                    minima repellat qui quisquam!</p>
+    <!-- Containers -->
+    <section id="join" class="main-form">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-5">
+                    <form>
+                        <header class="row">
+                            <div class="col-10 col-md-9 col-xl-10">
+                                <h2>Dołącz do nas</h2>
+                                <p>Wypełnij zgłoszenie na członka klubu:</p>
+
+                            </div>
+                            <div class="col-2 col-md-2 col-lg-2">
+                                <i class="fa fa-pencil-alt"></i>
+                            </div>
+                        </header>
+                        <fieldset>
+                            <input type="text" id="name" placeholder="Imię i nazwisko"><br>
+                            <input type="email" id="mail" placeholder="Email"><br>
+                            <input type="tel" id="phone" placeholder="Telefon"><br>
+                            <input type="text" id="text" placeholder="Kilka słów o sobie"><br><br>
+                            <button type="click" id="click">Zapisz się!</button><br><br>
+                            <p>Wypełniając zgłoszenie wyrażasz zgodę na przetwarzanie danych zgodnie z polityką
+                                prywatności</p>
+                        </fieldset>
+                    </form>
+                </div>
+
+                <div class="col-md-6 col-lg-7">
+                    <h2>Świat jest na wyciągnięcie ręki</h2>
+                    <p>Poznaj ludzi, których łączy wspólna pasja do podróżowania. Przekonaj się, jak wygląda
+                        życie bez granic.</p>
+                    <button type="click" id="click">Znajdź nas></button>
+                    <a href="#">Dowiedz się więcej
+                        <i class="far fa-lightbulb"></i></a>
+                </div>
             </div>
-            <div class="col-12 col-md-3 btn-warning">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda laboriosam facilis rem id
-                    praesentium minus saepe, itaque perferendis modi est! Dolorem nemo aspernatur dicta deserunt debitis
-                    minima repellat qui quisquam!</p>
-            </div>
-            <div class="col-6 col-md-3 btn-success text-center">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda laboriosam facilis rem id
-                    praesentium minus saepe, itaque perferendis modi est! Dolorem nemo aspernatur dicta deserunt debitis
-                    minima repellat qui quisquam!</p>
-            </div>
-            <div class="col-6 col-md-3 btn-warning">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda laboriosam facilis rem id
-                    praesentium minus saepe, itaque perferendis modi est! Dolorem nemo aspernatur dicta deserunt debitis
-                    minima repellat qui quisquam!</p>
+    </section><br><br>
+
+    <section id="inspire" class="film">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-5">
+                    <iframe src="https://www.youtube.com/embed/sIECXS1CdK8" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
+
+                <div class="col-md-10 col-lg-7">
+                    <h2>Inspirujemy</h2>
+                    <p>Poznaj historię ludzi, którzy zrealizowali swoje marzenia.</p>
+                    <p>Podróżowanie pozwala pozać Świat i odkryć siebie. Spełniaj swoje marzenia i<br> zdobywaj nowe
+                        pasje. Daj się ponieść przygodzie i dołącz do grona pasjonatów,<br>
+                        którzy codziennie udowadniają, że nie ma rzeczy niemożliwych.</p>
+                    <a href="#">Więcej historii</a>
+                </div>
             </div>
         </div>
-    </div>
+    </section> <br><br>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-5">
+                    <h2>O nas</h2>
+                    <p>Naszym głównym celem jest wymiana doś wiadczeń między podróżnikami między<br> podróżnikami
+                        podczas cyklicznych spotkań. Naszym największym<br> kapitałem jest wiedza i zaangażowanie
+                        naszych członków.</p>
+                </div>
+
+                <div class="col-md-10 col-lg-7">
+                    <h2>Kontakt</h2>
+                    <p><a href="#">klub@podroznika.pl</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
 
     <!-- JS Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

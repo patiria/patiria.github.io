@@ -1,4 +1,48 @@
+* {
+    font-family: Raleway;
+
+}
+
 #main-nav {
-    background-color: rgb(60, 60, 60);
-    color: lightgray;
+    background-color: #444; 
+    color: white;
+}
+
+
+form header {
+    margin: auto;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.35); 
+}
+
+form fieldset {
+    padding: 25px;
+}
+
+.navbar a {
+    color: #c2c2c2;
+}
+
+.navbar a:hover {
+    color: #fff; 
+}
+
+.container {
+    background: url(img_form-background.jpg);
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.35);
+    color: white; 
+}
+
+button {
+    background-color: #e38f42 ;
+    color:  white;
+}
+
+form {
+    margin: 50px 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white; 
 }
